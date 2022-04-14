@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Тесты </title>
+<meta name="viewport" content="user-scalable=no, width=device-width">
+<script type="text/javascript" src="js/GALocalStorage.js"></script>
+    <script>
+    ga_storage._setAccount('UA-60219434-1'); //Replace with your own
+
+	function Back(x){
+var val ='{\"Bx\":'+x+'}';
+
+ localStorage.setItem('BKey', val);
+
+
+document.location.href = 'theme.html';
+
+
+
+
+}
+	function img2()
+  {
+ var ostB = document.getElementById("elem4").innerHTML;
+
+ if(yes==2){
+
+ostB ='<img src="img/yes.png" align="right" alt="Smiley face" height="26"  onclick="img2()" />'; 
+yes=1;
+}else{
+
+yes=2;
+ostB ='<img src="img/no.png" align="right" alt="Smiley face" height="26"  onclick="img2()" />'; 
+  
+  }
+
+    var Temp=ostB;
+  document.getElementById("elem4").innerHTML = Temp;
+  }
+
+
+    </script>
+    <script>	</script>
+<script type="text/javascript" src="ing_see.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body onload="img2();"><div style="position:fixed; width:100%; ">
+    <div id="head" style=" position:relative; "><div class="block1"><center><table style="width:100%;"><tbody><tr><td style="width:10%"><img src="img/arra.png" align="left" alt="Smiley face" height="21" onclick="Back(3)"></td><td align="center"><p align="center">Английский язык<br>Текст для варианта №3<br>Успехов в обучении!</p></td></tr></tbody></table></center><p></p></div></div>
+
+    <div class="sss">
+        <table width="100%">
+            <tbody><tr><td height="100%"><div class="relD"> Поверните устройство!</div>
+
+            <div class="newTT" align="center"> <p> <img src="logo.png" ></p></div>
+
+           <div class="newTT" align="center"><font face="Helvetica"><br><div style="clear:left;"><div class="newTT" align="center"><font face="Helvetica">Hi! My name is Helen and my pet’s name’s Alice.<br> It is a cat. Everybody likes our cat. <br> Her eyes are green. Its ears are small. <br> Its tail is long and its legs are long too. <br> It is very beautiful and intelligent.<br> Alice is very lively and friendly. <br> Its favourite toy is a ball. It plays with it all time. <br> Its favourite food is fish and meat. <br> I like my cat very much. <br> <br> <br> <b> </b> </font></div><table width="100%">
+
+
+            </table>
+                <hr size="1" color="#bbbbbb">
+                <p id="elem"><br></p>
+                <p id="elem2"></p>
+                <p id="ad"></p>
+            </div>
+                <!-- JQuery -->
+                <script src="js/jquery.min.js"></script>
+
+                <!-- JS -->
+                <script type="text/javascript" src="js/vendor/waypoints.min.js"></script>
+                <script type="text/javascript" src="js/vendor/waypoints-sticky.min.js"></script>
+                <script type="text/javascript" src="js/vendor/jquery.hideseek.min.js"></script>
+
+                <script src="js/initializers.js"></script>
+
+                <br><br>
+ </html>

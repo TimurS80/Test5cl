@@ -1,0 +1,705 @@
+
+.temen {
+
+  /*background: #000 url(logo2.png); /* Фоновый цвет и фоновый рисунок*/
+  color: #fff; /*Цвет текста на странице*/
+  background-attachment: fixed; /* Фон страницы фиксируется */
+  background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+  /*background-color: #5f9ea0; /* СВЕТЛЫЙ фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  opacity: 0.70; /* Степень прозрачности */
+  position: fixed; /* Фиксированное положение */
+  top: 0; /* Нулевой отступ сверху */
+  width: 100%; /* Ширина максимальна */
+  z-index: 100; /* Заведомо быть НАД другими элементами */
+}
+* { margin:0px; padding:0px; }
+
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+opacity: .5;
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+body { min-height:100%; position:relative;}
+
+.yyy {
+background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+opacity: .85;
+color: #000000; /*Цвет текста на странице*/
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+body { min-height:100%; position:relative;}
+
+.sss {
+background-color: #FFFFFF;
+color: #000000; /*Цвет текста на странице*/
+/* СВЕТЛЫЙ фон *//*background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+width:95%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+body { min-height:100%;
+position:relative;
+overflow: auto;
+}
+
+.text-block {
+ margin-left:90px;
+ }
+.text-block2 {
+ text-indent: 30px;
+ margin-left:5px;
+ text-align:justify;
+    }
+
+.newTT {
+      font-family: Helvetica;
+      color:black;
+      } /* Шрифты для выберете предмет и дополнительно */
+
+.fixed{ /*    что за стиль?    */
+position:fixed; 
+top:0px; 
+margin:auto; 
+z-index:110; 
+width:100%;
+font-family: Helvetica;
+font-size: 11px;
+color: #FFF;
+background-color: #5f9ea0;
+line-height: 1px;
+border-width: 0px 0px 0px;
+border-style: solid;
+/*border-color: #c0c0c0*/
+padding: 0px 0px 0px 0px;
+
+}
+.loading{margin: 40% 0 0 0;}  /* для загрузки */
+
+.relD{color:white;font-size: 0px;}
+
+.block1 {
+
+font-family: Helvetica;
+font-size: 15px;
+color: #FFF;
+background-color: #4169e1;
+line-height: 17px;
+border-width: 0px 0px 1px;
+border-style: solid;
+/*border-color: #c0c0c0;*/
+padding: 3px 15px 3px 15px;
+}
+.block2 {
+font-size:14px;
+font-family:Helvetica;
+line-height: 16px ;
+border-width: 0 0 1px 0;
+border-style: solid;
+border-color: #c0c0c0;
+padding: 7px 0px 7px 1px;
+ }
+.block2:active{
+background-color:#fff8dc;
+color:white;
+}
+.block3 {
+
+font-family:Helvetica;
+height:45px;
+ line-height: 45px ;
+ border-width: 1px 1px 1px 1px;
+ border-style: solid;
+ border-color: #c0c0c0;
+ border-radius:4px;
+ width:70%;
+background-color: #fff8dc;
+}
+.block3:active{
+background-color:#c0c0c0;
+color:white;
+}
+.block4 {
+font-family: Helvetica;
+font-size: 20px;
+color: #FFF;
+background-color: #dc143c;
+height: 45px;
+border-width: 0px 0px 1px;
+border-style: solid;
+border-color: #dc143c;
+}
+.block5 {
+
+font-family:Helvetica;
+ line-height: 45px ;
+ border-width: 1px 1px 1px 1px;
+ border-style: solid;
+ /*border-color: #c0c0c0;*/
+ border-radius:4px;
+ width:70%;
+}
+.block5:active{
+background-color:#fff8dc;
+color:white;
+}
+.block6 {    /* блок 6  с названием предметов */
+ /*font-size:17px;
+ font-family:Helvetica;
+  line-height: 22px ;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #c0c0c0;
+ padding: 7px 0px 7px 3px;*/
+
+  font-family:Helvetica;
+  height:35px;
+   line-height: 35px ;
+   border-width: 1px 1px 1px 1px;
+   border-style: solid;
+   border-color: #c0c0c0;
+   border-radius:8px;
+   width:80%;
+  background-color: #fee5ac;
+
+  }
+.block6:active{
+ background-color:#98FB98;
+ color:white;
+ }
+.block7 {
+ font-size:14px;
+ font-family:Helvetica;
+  line-height: 22px ;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+ /* border-color: #c0c0c0;*/
+ padding: 7px 0px 7px 3px;
+  }
+.block7:active{
+ background-color:#90ee90;
+ color:white;
+ }
+
+.foT4{
+     font-family: Helvetica;
+     font-size: 20px;
+     padding: 15px 3px 15px 3px;
+     }
+.foT3{
+     font-family: Helvetica;
+     font-size: 20px;
+     padding: 15px 2px 15px 2px;
+     }
+.t4form{
+font-family: Helvetica;
+font-size: 20px;
+text-align:center;
+height: 35px;
+width:70%;
+border-color: #c0c0c0;
+border-style: solid;
+border-radius:4px;
+   border-width:2px;
+}
+.t3form{
+font-family: Helvetica;
+font-size: 20px;
+   text-align:center;
+height: 35px;
+width:35px;
+border-color: #c0c0c0;
+border-style: solid;
+ border-radius:4px;
+  border-width:1px;
+}
+.type3 {
+   text-align:left;
+font-size:13px;
+font-family:Helvetica;
+ line-height: 22px ;
+ float:left;
+ width:46%;
+padding: 3px 0px 10% 5%;
+ }
+.type3b {
+
+   text-align:left;
+font-size:13px;
+font-family:Helvetica;
+ line-height: 22px ;
+ float:left;
+ width:46%;
+padding: 3px 0px 10%  3%;
+
+ }
+.vtype2 {
+ word-wrap: break-word;
+font-size:14px;
+font-family:Helvetica;
+ line-height: 16px ; 
+ float:left; 
+ width:49%; 
+ height: 32px;
+border-width: 0 0px 1px 0px; 
+ border-style: solid;
+ border-color: #c0c0c0;
+padding: 7px 0px 7px 1px;
+ } 
+.vPtype2{
+ 
+ margin:0 0 0 10px;
+ 
+ }
+.vtype2:active{
+background-color:#fff8dc;
+color:white;
+}
+  A:link {
+    text-decoration: none; color: black; /* Убирает подчеркивание для ссылок */
+  font-family:Helvetica;
+  }
+  A:active {  text-decoration: none; color: red;}
+  A:visited { text-decoration: none; color: black;}
+  A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: #4a73b1; /* Цвет ссылки */
+
+  }
+#sem:checked +  .podsvetka {
+font-weight: bold;
+color: #4a73b1;
+border-color: #FFFFFF;
+}
+
+@media only  screen and  (orientation : landscape) {
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+.yyy {
+background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+opacity: .85;
+color: #000000; /*Цвет текста на странице*/
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+}
+@media screen and (max-width: 740px) and (orientation:landscape){
+.loading{margin: 7% 0 0 0;}
+.vtype2 {
+font-size: 13px;
+border-width: 0 0px 1px 0px; 
+ }   
+.vPtype2{
+ 
+ margin:0 0 0 40px;
+ 
+ }
+
+}
+@media screen and (min-width : 1024px)  and (orientation:landscape) { /* for android tab */
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+opacity: .5;
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			
+/* 			background-color: #4A73B1;
+			color: #4A73B1; */
+			
+			}
+.yyy {
+  background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  opacity: .85;
+  color: #000000; /*Цвет текста на странице*/
+  width:100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  	}
+.loading {margin: 15% 0 0 0;}
+.block1 {
+font-size: 20px;
+line-height: 22px;
+padding: 6px 20px 6px 20px;
+}	
+.newTT{
+color:black;
+font-size: 20px;
+padding: 26px 20px 26px 20px;
+}
+.foT4{
+     font-family: Helvetica;
+     font-size: 20px;
+     padding: 26px 20px 26px 20px;
+     }
+.t4form{
+
+width:50%; 
+
+}
+.block2 {
+font-size: 20px;
+ line-height: 22px ; 
+ border-width: 0 0 1px 0; 
+padding: 11px 0px 11px 3px;
+ }
+.vtype2 {
+font-size: 20px;
+ line-height: 24px ; 
+border-width: 0 0px 1px 0px; 
+padding: 9px 3px 6px 3px;
+
+ } 
+.vPtype2 {
+ 
+ margin:0 0 0 100px;
+ 
+ }
+.type3 {
+   text-align:left;
+font-size:19px;
+font-family:Helvetica;
+ line-height: 22px ; 
+ float:left; 
+ width:35%; 
+ height: 32px;
+padding: 0px 0px 35% 104px;
+ } 
+.type3b {
+
+   text-align:left;
+font-size:19px;
+font-family:Helvetica;
+ line-height: 22px ; 
+ float:left; 
+ width:35%; 
+ height: 32px;
+padding: 0px 0px 35% 104px;
+
+ } 
+.block3 {
+font-size: 20px;
+height:65px;
+ line-height: 65px ; 
+ border-width: 1px 1px 1px 1px; 
+ border-radius:4px; 
+  width:60%;
+}
+.block4 {
+font-size: 21px;
+color: #FFF;
+background-color: #dc143c;
+line-height: 22px ; 
+padding:10px 0px 10px 0px;
+}
+.block6 {
+/*font-size: 20px;
+ line-height: 24px ; 
+padding: 10px 0px 10px 3px;*/
+   /* блок 6  с названием предметов */
+ font-family:Helvetica;
+  height:35px;
+   line-height: 35px ;
+   border-width: 1px 1px 1px 1px;
+   border-style: solid;
+   border-color: #c0c0c0;
+   border-radius:8px;
+   width:80%;
+  background-color: #fee5ac;
+
+ }
+.block7 {
+font-size:20px;
+ line-height: 24px ; 
+padding: 10px 0px 10px 3px;
+ }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) and (orientation:portrait)  { /* for android tab PORT */
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+opacity: .5;
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+
+			}
+.yyy {
+  background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  opacity: .85;
+  color: #000000; /*Цвет текста на странице*/
+  width:100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  	}
+.loading{margin: 45% 0 0 0;}
+.t4form{
+
+width:50%; 
+
+}
+.vPtype2{
+ 
+ margin:0 0 0 40px;
+ 
+ }
+.type3 {
+   text-align:left;
+font-size:20px;
+font-family:Helvetica;
+ line-height: 22px ; 
+ float:left; 
+ width:46%; 
+padding: 3px 0px 10% 5%;
+ } 
+.type3b {
+
+   text-align:left;
+font-size:20px;
+font-family:Helvetica;
+ line-height: 22px ; 
+ float:left; 
+ width:46%; 
+padding: 3px 0px 10%  3%;
+
+ } 
+.block1 {
+font-size: 20px;
+line-height: 22px;
+padding: 6px 20px 6px 20px;
+}	
+.newTT
+{
+color:black;
+font-size: 20px;
+padding: 26px 20px 26px 20px;
+}
+.foT4
+{
+font-family: Helvetica;
+font-size: 20px;
+padding: 26px 20px 26px 20px;
+}
+.block2 {
+font-size: 20px;
+ line-height: 22px ; 
+ border-width: 0 0 1px 0; 
+padding: 11px 0px 11px 3px;
+ }
+.vtype2 {
+font-size: 20px;
+ line-height: 22px ; 
+border-width: 0 0px 1px 0px; 
+padding: 11px 0px 11px 3px;
+ } 
+.block3 {
+font-size: 20px;
+height:65px;
+ line-height: 65px ; 
+ border-width: 1px 1px 1px 1px; 
+ border-radius:4px; 
+}
+.block4 {
+font-size: 21px;
+color: #FFF;
+background-color: #dc143c;
+line-height: 22px ; 
+padding:10px 0px 10px 0px;
+}
+.block6 {
+/*font-size: 20px;
+ line-height: 24px ; 
+padding: 10px 0px 10px 3px;*/
+  /* блок 6  с названием предметов */
+
+ font-family:Helvetica;
+  height:35px;
+   line-height: 35px ;
+   border-width: 1px 1px 1px 1px;
+   border-style: solid;
+   border-color: #c0c0c0;
+   border-radius:8px;
+   width:80%;
+  background-color: #fee5ac;
+
+ }
+.block7 {
+font-size:20px;
+line-height: 24px ;
+padding: 10px 0px 10px 3px;
+ }		
+}
+@media  screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) { /* for ipad*/
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+opacity: .5;
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			}
+.yyy {
+  background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  opacity: .85;
+  color: #000000; /*Цвет текста на странице*/
+  width:100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  	}
+.newTT{
+      color:black;
+      font-size: 16px;
+      padding: 16px 10px 16px 10px;
+      }
+.loading{margin: 17% 0 0 0;}
+.block1 {
+font-size: 16px;
+line-height: 16px;
+padding: 7px 13px 7px 13px;
+}	
+.block2 {
+font-size: 14px;
+line-height: 15px;
+border-width: 0 0 1px 0;
+padding: 9px 0px 9px 2px;
+ }
+.block3 {
+font-size: 14px;
+height:45px;
+ line-height: 45px ;
+ border-width: 1px 1px 1px 1px;
+ border-radius:2px;
+
+}
+.block4 {
+font-size: 17px;
+color: #FFF;
+background-color: #dc143c;
+line-height: 15px ;
+padding:10px 0px 10px 0px;
+}
+.block6 {
+/*font-size: 14px;
+ line-height: 17px ;
+padding: 7px 0px 7px 2px;*/
+    /* блок 6  с названием предметов */
+font-family:Helvetica;
+ height:35px;
+  line-height: 35px ;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-radius:8px;
+  width:80%;
+ background-color: #fee5ac;
+ }
+.block7 {
+font-size:14px;
+ line-height: 17px ;
+padding: 7px 0px 7px 2px;
+ }
+.t3form{
+
+font-size: 14px;
+height: 25px;
+width:25px; 
+ border-radius:2px; 
+}
+.foT3{
+     font-size: 14px;
+     padding: 10px 2px 10px 2px;
+     }
+.foT4{
+font-family: Helvetica;
+font-size: 16px;
+padding: 16px 12px 16px 12px;
+}
+.type3 {
+   text-align:left;
+font-size:16px;
+font-family:Helvetica;
+ line-height: 22px ;
+ float:left;
+ width:40%;
+padding: 0px 0px 28% 50px;
+ }
+.type3b {
+
+   text-align:left;
+font-size:16px;
+font-family:Helvetica;
+ line-height: 22px ;
+ float:left;
+ width:40%;
+padding: 0px 0px 28% 50px;
+}
+.vtype2 {
+font-size: 14px;
+line-height: 10px;
+ border-width: 0 0px 1px 0px; 
+padding: 11px 0px 1px 2px;
+ } 
+.vPtype2{
+
+ margin:0 0 0 50px;
+
+ }
+ }
+@media only screen and (orientation:portrait){
+.xxx {
+background:transparent url(fon.png); /* Фоновый цвет и фоновый рисунок*/
+opacity: .5;
+color: #000000; /*Цвет текста на странице*/
+opacity: .99;
+/*background-color: #FFFFFF; /* СВЕТЛЫЙ фон */
+width:100%;
+height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+			
+			}
+.yyy {
+  background:transparent url(fon1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  opacity: .85;
+  color: #000000; /*Цвет текста на странице*/
+  width:100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  	}
+}
